@@ -1,6 +1,6 @@
 # StakingDapp
 
-[Hosted DApp: Staking DApp](https://staking-dapp-woad.vercel.app/)
+Hosted DApp: [Staking DApp](https://staking-dapp-woad.vercel.app/)
 
 Welcome to the StakingDapp project! This repository contains instructions for interacting with the smart contracts and deploying the DApp.
 
