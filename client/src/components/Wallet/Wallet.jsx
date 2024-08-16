@@ -1,4 +1,5 @@
 import { useState,useEffect } from "react";
+import PropTypes from 'prop-types';
 import { connectWallet } from "../../utils/connectWallet";
 import Web3Context from "../../context/Web3Context";
 import Button from "../Button/Button";
@@ -47,4 +48,9 @@ const Wallet =({children})=>{
    </div>
  )
 }
+
+Wallet.propTypes = {
+   children: PropTypes.node.isRequired, 
+};
+
 export default Wallet;
